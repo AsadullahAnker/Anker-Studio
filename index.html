@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKER STUDIO (@ankerstudio_) — Jasa Landing Page Promosi & Reservasi</title>
+    <meta name="description" content="Jasa pembuatan landing page promosi & reservasi cepat untuk UMKM, terapis, toko, dan bisnis online. Terhubung ke WhatsApp, IG, TikTok, Telegram, dan Discord. Order via Telegram @BaBu45_x.">
+
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Konfigurasi Tema Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        obsidian: {
+                            950: '#050507',
+                            900: '#09090b',
+                            850: '#101116',
+                            800: '#171923',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-obsidian-900 text-zinc-100 font-sans antialiased selection:bg-cyan-400 selection:text-obsidian-950 overflow-x-hidden">
+
+    <!-- ==================== AMBIENT BACKGROUND GLOW ==================== -->
+    <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+        <div class="absolute -top-36 -left-28 w-96 h-96 bg-blue-600/20 rounded-full blur-[130px]"></div>
+        <div class="absolute top-1/3 -right-28 w-96 h-96 bg-cyan-500/15 rounded-full blur-[130px]"></div>
+        <div class="absolute bottom-0 left-1/3 w-[520px] h-80 bg-indigo-600/15 rounded-full blur-[140px]"></div>
+    </div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <header class="sticky top-0 z-40 bg-obsidian-900/85 backdrop-blur-xl border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-blue-600 via-cyan-400 to-indigo-500 p-[1.5px] shadow-lg shadow-cyan-500/20">
+                    <div class="w-full h-full bg-obsidian-900 rounded-[14px] flex items-center justify-center font-display font-extrabold text-lg text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
+                        A
+                    </div>
+                </div>
+                <div>
+                    <span class="font-display font-extrabold text-base sm:text-lg tracking-tight text-white block leading-none">
+                        ANKER STUDIO<span class="text-cyan-400">.</span>
+                    </span>
+                    <span class="text-[11px] font-medium text-zinc-400 tracking-wide">@ankerstudio_</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
+                <a href="#demo-interaktif" class="hover:text-cyan-400 transition-colors">Demo HP</a>
+                <a href="#paket" class="hover:text-cyan-400 transition-colors">Daftar Harga</a>
+                <a href="#keunggulan" class="hover:text-cyan-400 transition-colors">Keunggulan</a>
+                <a href="#form-order" class="hover:text-cyan-400 transition-colors">Pesan Sekarang</a>
+            </nav>
+
+            <!-- Direct Telegram Button -->
+            <a href="https://t.me/BaBu45_x" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-display font-bold text-xs sm:text-sm px-4 py-2.5 sm:px-5 sm:py-2.5 rounded-xl shadow-lg shadow-cyan-500/25 transition-all active:scale-95">
+                <i class="fa-brands fa-telegram text-base"></i>
+                <span>@BaBu45_x</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="relative z-10 pt-12 pb-16 sm:pt-20 sm:pb-24">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-cyan-400/30 text-cyan-300 text-xs font-semibold mb-6 backdrop-blur-md">
+                    <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+                    <span>Jasa Landing Page Promosi & Reservasi • Terima Beres</span>
+                </div>
+
+                <h1 class="font-display text-3xl sm:text-5xl lg:text-[56px] font-extrabold text-white leading-[1.12] tracking-tight mb-6">
+                    Ubah Pengunjung Medsos Jadi Pembeli dengan <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400">Landing Page Kekinian</span>
+                </h1>
+
+                <p class="text-sm sm:text-lg text-zinc-300 leading-relaxed mb-8 max-w-2xl mx-auto">
+                    Solusi website profil & katalog cepat untuk <strong class="text-white">UMKM, jasa terapis, toko, hingga kreator & komunitas</strong>. Langsung terhubung ke WhatsApp, Instagram, TikTok, Telegram, dan Discord tanpa ribet teknis.
+                </p>
+
+                <!-- Hero CTA Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 mb-10">
+                    <a href="#paket" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-display font-bold text-sm sm:text-base px-8 py-4 rounded-2xl shadow-xl shadow-blue-600/30 transition-all active:scale-95">
+                        <i class="fa-solid fa-tags text-base"></i>
+                        <span>Lihat Daftar Harga</span>
+                    </a>
+                    <a href="#demo-interaktif" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-white/5 hover:bg-white/10 text-white border border-white/15 font-display font-semibold text-sm sm:text-base px-8 py-4 rounded-2xl backdrop-blur-md transition-all active:scale-95">
+                        <i class="fa-solid fa-mobile-screen-button text-cyan-400"></i>
+                        <span>Lihat Demo Langsung</span>
+                    </a>
+                </div>
+
+                <!-- Trust Badges -->
+                <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2.5 text-xs sm:text-sm text-zinc-400">
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Harga Tahunan Transparan</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Jadi dalam 1–2 Hari</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Bebas Iklan & Anti-Down</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== INTERACTIVE PHONE MOCKUP DEMO ==================== -->
+    <section id="demo-interaktif" class="relative z-10 py-16 sm:py-24 border-y border-white/10 bg-obsidian-950/70 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column: Demo Controls -->
+                <div class="lg:col-span-6 text-center lg:text-left">
+                    <span class="text-cyan-400 font-display font-bold text-xs uppercase tracking-widest">Simulasi Interaktif di HP</span>
+                    <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-white mt-2 mb-4">
+                        Coba Klik & Rasakan Tampilan Website Klienmu
+                    </h2>
+                    <p class="text-sm sm:text-base text-zinc-300 leading-relaxed mb-6">
+                        Pilih kategori bisnis di bawah ini untuk melihat langsung bagaimana calon pelanggan melihat daftar layanan, harga, dan menekan tombol reservasi di layar ponsel mereka:
+                    </p>
+
+                    <!-- Category Tabs -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-7">
+                        <button type="button" onclick="gantiDemo('terapis')" id="btnDemoTerapis"
+                                class="demo-tab active p-3.5 rounded-2xl border border-cyan-400 bg-cyan-500/15 text-left transition-all">
+                            <div class="text-cyan-400 text-base mb-1"><i class="fa-solid fa-spa"></i></div>
+                            <div class="font-display font-bold text-white text-xs sm:text-sm">Jasa Terapis</div>
+                            <div class="text-[11px] text-zinc-400">Booking jadwal & paket</div>
+                        </button>
+
+                        <button type="button" onclick="gantiDemo('kuliner')" id="btnDemoKuliner"
+                                class="demo-tab p-3.5 rounded-2xl border border-white/10 bg-white/5 hover:border-white/25 text-left transition-all">
+                            <div class="text-amber-400 text-base mb-1"><i class="fa-solid fa-mug-hot"></i></div>
+                            <div class="font-display font-bold text-white text-xs sm:text-sm">UMKM Kuliner</div>
+                            <div class="text-[11px] text-zinc-400">Katalog menu & order</div>
+                        </button>
+
+                        <button type="button" onclick="gantiDemo('digital')" id="btnDemoDigital"
+                                class="demo-tab p-3.5 rounded-2xl border border-white/10 bg-white/5 hover:border-white/25 text-left transition-all">
+                            <div class="text-indigo-400 text-base mb-1"><i class="fa-brands fa-discord"></i></div>
+                            <div class="font-display font-bold text-white text-xs sm:text-sm">Toko & Kreator</div>
+                            <div class="text-[11px] text-zinc-400">Link bio multi-sosmed</div>
+                        </button>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 text-xs sm:text-sm text-zinc-300 flex items-start gap-3 text-left">
+                        <i class="fa-solid fa-hand-pointer text-cyan-400 text-lg mt-0.5 shrink-0"></i>
+                        <span><strong class="text-white">Interaktif:</strong> Klik salah satu item layanan atau tombol reservasi di dalam layar HP sebelah kanan untuk mencoba simulasi!</span>
+                    </div>
+                </div>
+
+                <!-- Right Column: Phone Frame -->
+                <div class="lg:col-span-6 flex justify-center">
+                    <div class="relative w-full max-w-[340px]">
+                        <!-- Ambient Glow Behind Phone -->
+                        <div class="absolute -inset-2 bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 rounded-[44px] blur-xl opacity-30"></div>
+
+                        <!-- Phone Body -->
+                        <div class="relative bg-obsidian-950 border-[6px] border-zinc-800 rounded-[40px] p-3.5 shadow-2xl">
+                            <!-- Camera Notch -->
+                            <div class="w-24 h-5 bg-zinc-900 rounded-full mx-auto mb-2.5 flex items-center justify-end px-2.5">
+                                <span class="w-2 h-2 rounded-full bg-blue-500/60"></span>
+                            </div>
+
+                            <!-- Browser Address Bar -->
+                            <div class="flex items-center justify-between px-3 py-1.5 mb-3 rounded-full bg-white/5 border border-white/10 text-[11px] text-zinc-400 font-mono">
+                                <span class="flex items-center gap-1.5 text-emerald-400"><i class="fa-solid fa-lock text-[10px]"></i> https://</span>
+                                <span id="demoUrl" class="truncate text-zinc-200">rizky-terapis.vercel.app</span>
+                                <i class="fa-solid fa-rotate-right text-[10px]"></i>
+                            </div>
+
+                            <!-- Dynamic Screen Content -->
+                            <div id="phoneScreenContent" class="bg-obsidian-900 rounded-[24px] p-4 border border-white/10 space-y-3.5 min-h-[395px] flex flex-col justify-between transition-all">
+                                <!-- Rendered via JavaScript -->
+                            </div>
+
+                            <!-- Home Indicator -->
+                            <div class="w-28 h-1 bg-zinc-700 rounded-full mx-auto mt-3"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PRICING SECTION (FIXED ANNUAL RENEWAL RATE) ==================== -->
+    <section id="paket" class="relative z-10 py-16 sm:py-24">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-cyan-400 font-display font-bold text-xs uppercase tracking-widest">Daftar Harga Resmi Tahunan</span>
+                <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-white mt-2 mb-3">
+                    Pilih Paket Landing Page Bisnismu
+                </h2>
+                <p class="text-sm sm:text-base text-zinc-400">
+                    Biaya langganan tahunan transparan—<strong class="text-zinc-200">harga perpanjangan tahun ke-2 dan seterusnya tetap sama</strong> tanpa biaya tersembunyi.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 items-stretch">
+
+                <!-- ===== PAKET 01: STARTER (Rp 500rb / Tahun - Perpanjangan tetap Rp 500rb/tahun) ===== -->
+                <div class="flex flex-col justify-between bg-obsidian-850/90 border border-white/10 rounded-3xl p-6 sm:p-8 hover:border-white/25 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-zinc-300 bg-white/5 px-3 py-1 rounded-lg">Paket 01 • Starter</span>
+                            <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-lg">UMKM Pemula</span>
+                        </div>
+                        <h3 class="font-display text-2xl font-bold text-white">Starter</h3>
+                        <p class="text-xs sm:text-sm text-zinc-400 mt-1">Landing page profil & promosi simpel untuk mulai online.</p>
+
+                        <div class="my-6 pb-6 border-b border-white/10">
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="font-display text-3xl sm:text-4xl font-extrabold text-white">Rp 500rb</span>
+                                <span class="text-xs sm:text-sm font-semibold text-cyan-400">/ Tahun</span>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm text-zinc-300 mb-8">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>1 halaman landing page profil & promosi</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Hosting cepat & subdomain gratis (<code class="text-xs bg-white/10 px-1.5 py-0.5 rounded text-cyan-200">.vercel.app</code>)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Tombol direct chat/reservasi ke WhatsApp / Telegram</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Desain mobile-first responsif kekinian</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>1x revisi desain</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Maintenance & perawatan teknis selama berlangganan</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 mb-5 flex items-start gap-3">
+                            <i class="fa-solid fa-rotate text-cyan-400 mt-0.5 shrink-0"></i>
+                            <p class="text-xs text-zinc-300 leading-relaxed">Perpanjangan tahun ke-2 tetap <strong class="text-white">Rp 500rb/tahun</strong> (termasuk hosting, subdomain <code class="text-[11px] text-cyan-200">.vercel.app</code>, & maintenance).</p>
+                        </div>
+                        <button type="button" onclick="pilihPaket('Starter — Rp 500rb / Tahun')" 
+                                class="w-full py-3.5 px-5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-display font-bold text-sm border border-white/15 transition-all active:scale-95">
+                            Pilih Paket Starter
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ===== PAKET 02: STANDARD (Rp 750rb / Tahun - MOST CHOICE - Perpanjangan tetap Rp 750rb/tahun) ===== -->
+                <div class="relative flex flex-col justify-between bg-gradient-to-b from-obsidian-800 to-obsidian-850 border-2 border-cyan-400 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-cyan-500/15">
+                    <!-- Badge Most Choice -->
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-500 text-obsidian-950 font-display text-xs font-extrabold uppercase tracking-wider px-4 py-1 rounded-full shadow-lg whitespace-nowrap">
+                        MOST CHOICE • PALING LARIS
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-between mb-4 mt-1">
+                            <span class="text-xs font-bold uppercase tracking-wider text-cyan-300 bg-cyan-400/10 px-3 py-1 rounded-lg border border-cyan-400/30">Paket 02 • Standard</span>
+                            <span class="text-xs font-semibold text-cyan-300">Rekomendasi</span>
+                        </div>
+                        <h3 class="font-display text-2xl font-bold text-white">Standard</h3>
+                        <p class="text-xs sm:text-sm text-zinc-300 mt-1">Integrasi penuh semua sosmed & formulir reservasi otomatis.</p>
+
+                        <div class="my-6 pb-6 border-b border-white/10">
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="font-display text-3xl sm:text-4xl font-extrabold text-white">Rp 750rb</span>
+                                <span class="text-xs sm:text-sm font-semibold text-cyan-400">/ Tahun</span>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm text-zinc-200 mb-8">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span class="font-semibold text-white">Semua fitur Starter</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Integrasi lengkap medsos & chat (WhatsApp, Instagram, TikTok, Telegram, Discord)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Formulir pemesanan & reservasi otomatis ke chat</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Galeri foto produk/layanan & testimoni pelanggan</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>2x revisi desain</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span><strong>Gratis update konten, harga & foto selama berlangganan</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="p-3.5 rounded-xl bg-cyan-500/10 border border-cyan-400/25 mb-5 flex items-start gap-3">
+                            <i class="fa-solid fa-shield-halved text-cyan-400 mt-0.5 shrink-0"></i>
+                            <p class="text-xs text-zinc-200 leading-relaxed">Perpanjangan tahun ke-2 tetap <strong class="text-white">Rp 750rb/tahun</strong> (termasuk hosting, integrasi penuh, & gratis update konten).</p>
+                        </div>
+                        <button type="button" onclick="pilihPaket('Standard — Rp 750rb / Tahun (Most Choice)')" 
+                                class="w-full py-3.5 px-5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-display font-bold text-sm shadow-lg shadow-cyan-500/25 transition-all active:scale-95">
+                            Pilih Paket Standard
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ===== PAKET 03: PREMIUM (Rp 1jt / Tahun - Perpanjangan tetap Rp 1jt/tahun) ===== -->
+                <div class="flex flex-col justify-between bg-obsidian-850/90 border border-white/10 rounded-3xl p-6 sm:p-8 hover:border-white/25 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-indigo-300 bg-indigo-500/10 px-3 py-1 rounded-lg border border-indigo-400/20">Paket 03 • Premium</span>
+                            <span class="text-xs font-semibold text-indigo-300">Custom Domain</span>
+                        </div>
+                        <h3 class="font-display text-2xl font-bold text-white">Premium</h3>
+                        <p class="text-xs sm:text-sm text-zinc-400 mt-1">Branding profesional dengan domain resmi milik sendiri.</p>
+
+                        <div class="my-6 pb-6 border-b border-white/10">
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="font-display text-3xl sm:text-4xl font-extrabold text-white">Rp 1jt</span>
+                                <span class="text-xs sm:text-sm font-semibold text-cyan-400">/ Tahun</span>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm text-zinc-300 mb-8">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span class="font-semibold text-white">Semua fitur Standard</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span><strong>Custom domain resmi sendiri (<code class="text-xs bg-white/10 px-1.5 py-0.5 rounded text-indigo-200">.com</code> atau <code class="text-xs bg-white/10 px-1.5 py-0.5 rounded text-indigo-200">.my.id</code>)</strong></span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Custom section tanpa batas (FAQ, pricelist interaktif, galeri)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Animasi modern & tampilan eksklusif</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Bebas revisi sampai cocok selama pengerjaan</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
+                                <span>Prioritas support & maintenance penuh</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 mb-5 flex items-start gap-3">
+                            <i class="fa-solid fa-globe text-indigo-400 mt-0.5 shrink-0"></i>
+                            <p class="text-xs text-zinc-300 leading-relaxed">Perpanjangan tahun ke-2 tetap <strong class="text-white">Rp 1jt/tahun</strong> (termasuk perpanjangan domain <code class="text-[11px] text-indigo-200">.com/.my.id</code>, hosting, & support prioritas).</p>
+                        </div>
+                        <button type="button" onclick="pilihPaket('Premium — Rp 1jt / Tahun (Custom Domain)')" 
+                                class="w-full py-3.5 px-5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-display font-bold text-sm border border-white/15 transition-all active:scale-95">
+                            Pilih Paket Premium
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICE ADVANTAGES SECTION ==================== -->
+    <section id="keunggulan" class="relative z-10 py-16 sm:py-20 bg-obsidian-950/70 border-y border-white/10">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-cyan-400 font-display font-bold text-xs uppercase tracking-widest">Kenapa ANKER STUDIO?</span>
+                <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-white mt-2">
+                    Fokus Jualan, Urusan Teknis Kami yang Pegang
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Advantage 1 -->
+                <div class="bg-obsidian-850 border border-white/10 rounded-3xl p-7 hover:border-cyan-400/40 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-cyan-500/15 border border-cyan-400/30 text-cyan-400 flex items-center justify-center text-xl mb-5">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-white text-lg mb-2.5">Hosting Cepat Anti-Down</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed">
+                        Website di-deploy pada infrastruktur cloud global berkecepatan tinggi sehingga terbuka instan saat diklik dari bio TikTok, IG, maupun WhatsApp.
+                    </p>
+                </div>
+
+                <!-- Advantage 2 -->
+                <div class="bg-obsidian-850 border border-white/10 rounded-3xl p-7 hover:border-cyan-400/40 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-blue-500/15 border border-blue-400/30 text-blue-400 flex items-center justify-center text-xl mb-5">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-white text-lg mb-2.5">Desain Mobile-First</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed">
+                        Lebih dari 90% pengunjung media sosial mengakses lewat ponsel. Tata letak, ukuran tombol, dan keterbacaan dioptimalkan penuh untuk layar HP.
+                    </p>
+                </div>
+
+                <!-- Advantage 3 -->
+                <div class="bg-obsidian-850 border border-white/10 rounded-3xl p-7 hover:border-cyan-400/40 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-indigo-500/15 border border-indigo-400/30 text-indigo-400 flex items-center justify-center text-xl mb-5">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-white text-lg mb-2.5">Free Maintenance Selama Berlangganan</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed">
+                        Perlu ganti daftar harga, tambah foto baru, atau ubah nomor kontak? Cukup kirim bahan lewat Telegram <strong class="text-zinc-200">@BaBu45_x</strong>, langsung kami bereskan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXCLUSIVE TELEGRAM ORDER FORM ==================== -->
+    <section id="form-order" class="relative z-10 py-16 sm:py-24">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-obsidian-850/95 border border-cyan-400/30 rounded-3xl p-6 sm:p-10 shadow-2xl shadow-blue-950/50 backdrop-blur-xl">
+                
+                <div class="text-center mb-8">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sky-500/15 border border-sky-400/30 text-sky-300 text-xs font-bold uppercase tracking-wider mb-3">
+                        <i class="fa-brands fa-telegram text-sm"></i>
+                        <span>Direct Order Telegram @BaBu45_x</span>
+                    </div>
+                    <h2 class="font-display text-2xl sm:text-3xl font-extrabold text-white">
+                        Formulir Pemesanan Website
+                    </h2>
+                    <p class="text-xs sm:text-sm text-zinc-400 mt-2 max-w-xl mx-auto">
+                        Isi data usaha dan pilih paket di bawah ini. Pesan pesanan otomatis terformat dan langsung diarahkan ke Telegram <strong class="text-white">@BaBu45_x</strong>.
+                    </p>
+                </div>
+
+                <form id="telegramOrderForm" onsubmit="kirimPesananTelegram(event)" class="space-y-5">
+                    <!-- Nama / Nama Usaha -->
+                    <div>
+                        <label for="namaUsaha" class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2">
+                            Nama / Nama Usaha <span class="text-cyan-400">*</span>
+                        </label>
+                        <input type="text" id="namaUsaha" required placeholder="Contoh: Rizky Terapis / Kopi Senja / Toko Digital" 
+                               class="w-full px-4 py-3.5 rounded-xl bg-obsidian-950 border border-white/15 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
+                    </div>
+
+                    <!-- Jenis Bisnis -->
+                    <div>
+                        <label for="jenisBisnis" class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2">
+                            Jenis Bisnis / Bidang Usaha <span class="text-cyan-400">*</span>
+                        </label>
+                        <input type="text" id="jenisBisnis" required placeholder="Contoh: Jasa Terapis, Kuliner/Kafe, Bengkel, Klinik Kecantikan, Kreator" 
+                               class="w-full px-4 py-3.5 rounded-xl bg-obsidian-950 border border-white/15 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
+                    </div>
+
+                    <!-- Pilihan Paket -->
+                    <div>
+                        <label for="pilihanPaket" class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2">
+                            Pilihan Paket <span class="text-cyan-400">*</span>
+                        </label>
+                        <select id="pilihanPaket" required 
+                                class="w-full px-4 py-3.5 rounded-xl bg-obsidian-950 border border-white/15 text-white text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
+                            <option value="Starter — Rp 500rb / Tahun">Starter — Rp 500rb / Tahun (Perpanjangan tetap Rp 500rb/thn)</option>
+                            <option value="Standard — Rp 750rb / Tahun (Most Choice)" selected>Standard — Rp 750rb / Tahun (Most Choice • Perpanjangan tetap Rp 750rb/thn)</option>
+                            <option value="Premium — Rp 1jt / Tahun (Custom Domain)">Premium — Rp 1jt / Tahun (Custom Domain • Perpanjangan tetap Rp 1jt/thn)</option>
+                        </select>
+                    </div>
+
+                    <!-- Platform Tujuan Reservasi Klien -->
+                    <div>
+                        <span class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2.5">
+                            Integrasi Platform Tujuan Reservasi (Bisa pilih lebih dari satu)
+                        </span>
+                        <div class="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+                            <label class="cursor-pointer">
+                                <input type="checkbox" name="platform" value="WhatsApp" checked class="peer sr-only">
+                                <div class="p-3 rounded-xl bg-obsidian-950 border border-white/15 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/15 text-center text-xs font-semibold text-zinc-300 peer-checked:text-emerald-300 transition-all">
+                                    <i class="fa-brands fa-whatsapp text-base block mb-1"></i>WhatsApp
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer">
+                                <input type="checkbox" name="platform" value="Instagram" class="peer sr-only">
+                                <div class="p-3 rounded-xl bg-obsidian-950 border border-white/15 peer-checked:border-pink-400 peer-checked:bg-pink-500/15 text-center text-xs font-semibold text-zinc-300 peer-checked:text-pink-300 transition-all">
+                                    <i class="fa-brands fa-instagram text-base block mb-1"></i>Instagram
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer">
+                                <input type="checkbox" name="platform" value="TikTok" class="peer sr-only">
+                                <div class="p-3 rounded-xl bg-obsidian-950 border border-white/15 peer-checked:border-cyan-400 peer-checked:bg-cyan-500/15 text-center text-xs font-semibold text-zinc-300 peer-checked:text-cyan-300 transition-all">
+                                    <i class="fa-brands fa-tiktok text-base block mb-1"></i>TikTok
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer">
+                                <input type="checkbox" name="platform" value="Telegram" class="peer sr-only">
+                                <div class="p-3 rounded-xl bg-obsidian-950 border border-white/15 peer-checked:border-sky-400 peer-checked:bg-sky-500/15 text-center text-xs font-semibold text-zinc-300 peer-checked:text-sky-300 transition-all">
+                                    <i class="fa-brands fa-telegram text-base block mb-1"></i>Telegram
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer col-span-2 sm:col-span-1">
+                                <input type="checkbox" name="platform" value="Discord" class="peer sr-only">
+                                <div class="p-3 rounded-xl bg-obsidian-950 border border-white/15 peer-checked:border-indigo-400 peer-checked:bg-indigo-500/15 text-center text-xs font-semibold text-zinc-300 peer-checked:text-indigo-300 transition-all">
+                                    <i class="fa-brands fa-discord text-base block mb-1"></i>Discord
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Catatan Tambahan -->
+                    <div>
+                        <label for="catatanSingkat" class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2">
+                            Catatan Tambahan (Opsional)
+                        </label>
+                        <textarea id="catatanSingkat" rows="3" placeholder="Contoh: Request nuansa warna biru gelap, ada daftar paket harga & galeri foto..." 
+                                  class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-white/15 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="pt-1">
+                        <button type="submit" 
+                                class="w-full inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-display font-bold text-sm sm:text-base py-4 px-6 rounded-xl shadow-lg shadow-sky-500/25 transition-all active:scale-95">
+                            <i class="fa-brands fa-telegram text-xl"></i>
+                            <span>Kirim Pesanan ke Telegram @BaBu45_x</span>
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Fallback Box Pesan Siap Salin -->
+                <div id="fallbackBox" class="hidden mt-6 p-4 rounded-2xl bg-obsidian-950 border border-cyan-400/40 space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span id="copyStatusLabel" class="text-xs font-bold text-emerald-400 flex items-center gap-1.5">
+                            <i class="fa-solid fa-circle-check"></i> Format Pesanan Tersalin ke Clipboard!
+                        </span>
+                        <button type="button" onclick="salinUlangPesan()" class="text-xs font-semibold text-cyan-400 hover:text-cyan-300 underline">
+                            Salin Ulang
+                        </button>
+                    </div>
+                    <pre id="previewPesanText" class="text-xs text-zinc-300 bg-white/5 p-3 rounded-xl whitespace-pre-wrap font-sans leading-relaxed border border-white/10"></pre>
+                    <div class="flex flex-col sm:flex-row items-center justify-between gap-2 pt-1">
+                        <span class="text-[11px] text-zinc-400">Jika aplikasi Telegram belum terbuka otomatis, klik tombol di samping:</span>
+                        <a id="fallbackTelegramLink" href="https://t.me/BaBu45_x" target="_blank" rel="noopener noreferrer" 
+                           class="w-full sm:w-auto text-center px-4 py-2 rounded-lg bg-sky-500 hover:bg-sky-400 text-white font-display font-bold text-xs transition-colors">
+                            Buka https://t.me/BaBu45_x →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="relative z-10 bg-obsidian-950 border-t border-white/10 py-10">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div>
+                <div class="font-display font-extrabold text-white text-lg tracking-tight">
+                    ANKER STUDIO<span class="text-cyan-400">.</span>
+                </div>
+                <p class="text-xs text-zinc-400 mt-1">
+                    Jasa Landing Page Promosi & Reservasi (<span class="text-zinc-200">@ankerstudio_</span>)
+                </p>
+            </div>
+
+            <div class="flex flex-col sm:items-end gap-1.5">
+                <a href="https://t.me/BaBu45_x" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-2 text-sm font-display font-bold text-sky-400 hover:text-sky-300 transition-colors">
+                    <i class="fa-brands fa-telegram text-base"></i>
+                    <span>Order & Konsultasi Eksklusif: https://t.me/BaBu45_x (@BaBu45_x)</span>
+                </a>
+                <p class="text-xs text-zinc-500">&copy; 2026 ANKER STUDIO (@ankerstudio_). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== FLOATING TELEGRAM CTA ==================== -->
+    <a href="https://t.me/BaBu45_x" target="_blank" rel="noopener noreferrer" aria-label="Chat Telegram @BaBu45_x" 
+       class="fixed bottom-5 right-5 z-40 flex items-center gap-2.5 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-display font-bold text-sm px-4 py-3.5 rounded-full shadow-xl shadow-sky-500/30 transition-all hover:scale-105 active:scale-95">
+        <i class="fa-brands fa-telegram text-2xl"></i>
+        <span class="hidden sm:inline">Chat @BaBu45_x</span>
+    </a>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        // Data Simulasi Layar HP Interaktif
+        const dataDemo = {
+            terapis: {
+                url: 'rizky-terapis.vercel.app',
+                badge: 'Jasa Terapis & Homecare',
+                judul: 'Rizky Terapis Panggilan',
+                deskripsi: 'Pijat kebugaran & relaksasi profesional langsung ke rumah. Jadwal fleksibel tanpa antre.',
+                warnaKartu: 'from-cyan-500/20 to-blue-600/20 border-cyan-400/30',
+                layanan: [
+                    { nama: 'Terapi Full Body (60 Menit)', harga: 'Rp150rb' },
+                    { nama: 'Terapi + Totok Wajah (90 Menit)', harga: 'Rp220rb' }
+                ],
+                tombolUtama: 'Booking Jadwal via WhatsApp',
+                ikonUtama: 'fa-brands fa-whatsapp',
+                warnaTombol: 'from-emerald-500 to-teal-600'
+            },
+            kuliner: {
+                url: 'kopisenja-jatim.vercel.app',
+                badge: 'Katalog Kuliner & Kedai',
+                judul: 'Kopi Senja & Roastery',
+                deskripsi: 'Pesan kopi susu gula aren & snack favoritmu langsung dari meja atau pesan antar cepat.',
+                warnaKartu: 'from-amber-500/20 to-orange-600/20 border-amber-400/30',
+                layanan: [
+                    { nama: 'Es Kopi Susu Aren (1 Liter)', harga: 'Rp65rb' },
+                    { nama: 'Paket Nongkrong Berdua', harga: 'Rp45rb' }
+                ],
+                tombolUtama: 'Pesan Sekarang via Chat',
+                ikonUtama: 'fa-solid fa-bag-shopping',
+                warnaTombol: 'from-amber-500 to-orange-600'
+            },
+            digital: {
+                url: 'anker-studio.vercel.app',
+                badge: 'Kreator & Komunitas',
+                judul: 'Studio Kreatif & Jasa Digital',
+                deskripsi: 'Semua portofolio, daftar paket jasa, dan akses komunitas dalam satu halaman cepat.',
+                warnaKartu: 'from-indigo-500/20 to-blue-600/20 border-indigo-400/30',
+                layanan: [
+                    { nama: 'Paket Landing Page Standard', harga: 'Rp750rb/thn' },
+                    { nama: 'Paket Custom Domain Premium', harga: 'Rp1jt/thn' }
+                ],
+                tombolUtama: 'Order via Telegram',
+                ikonUtama: 'fa-brands fa-telegram',
+                warnaTombol: 'from-sky-500 to-blue-600'
+            }
+        };
+
+        /**
+         * Mengubah konten simulasi ponsel berdasarkan tab kategori yang dipilih
+         */
+        function gantiDemo(kategori) {
+            const item = dataDemo[kategori];
+            document.getElementById('demoUrl').textContent = item.url;
+
+            document.querySelectorAll('.demo-tab').forEach(btn => {
+                btn.classList.remove('border-cyan-400', 'bg-cyan-500/15');
+                btn.classList.add('border-white/10', 'bg-white/5');
+            });
+
+            const activeBtn = document.getElementById('btnDemo' + kategori.charAt(0).toUpperCase() + kategori.slice(1));
+            if (activeBtn) {
+                activeBtn.classList.remove('border-white/10', 'bg-white/5');
+                activeBtn.classList.add('border-cyan-400', 'bg-cyan-500/15');
+            }
+
+            const screenEl = document.getElementById('phoneScreenContent');
+            screenEl.innerHTML = `
+                <div class="space-y-3">
+                    <div class="p-3.5 rounded-2xl bg-gradient-to-br ${item.warnaKartu} border">
+                        <span class="inline-block text-[10px] font-bold uppercase tracking-wider text-cyan-300 bg-black/30 px-2 py-0.5 rounded-md mb-1.5">
+                            ${item.badge}
+                        </span>
+                        <h4 class="font-display font-extrabold text-white text-base leading-snug">${item.judul}</h4>
+                        <p class="text-[11px] text-zinc-300 mt-1 leading-relaxed">${item.deskripsi}</p>
+                    </div>
+
+                    <div class="space-y-2">
+                        <p class="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Klik Item untuk Simulasi Pilih:</p>
+                        ${item.layanan.map(srv => `
+                            <div onclick="simulasiKlikLayanan('${srv.nama}')" class="cursor-pointer p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-cyan-400/50 flex items-center justify-between transition-colors">
+                                <span class="text-xs font-medium text-zinc-200">${srv.nama}</span>
+                                <span class="text-xs font-extrabold text-cyan-400">${srv.harga}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                <div class="space-y-2 pt-2">
+                    <div id="demoFeedback" class="hidden text-[11px] text-center text-emerald-300 bg-emerald-500/15 border border-emerald-400/30 rounded-lg py-1.5 px-2">
+                        Simulasi aktif!
+                    </div>
+                    <button type="button" onclick="simulasiBookingDemo()" class="w-full py-3 px-3 rounded-xl bg-gradient-to-r ${item.warnaTombol} text-white font-display font-bold text-xs flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-transform">
+                        <i class="${item.ikonUtama} text-sm"></i>
+                        <span>${item.tombolUtama}</span>
+                    </button>
+                    <div class="flex items-center justify-center gap-3.5 text-zinc-400 text-xs pt-1">
+                        <i class="fa-brands fa-whatsapp hover:text-emerald-400"></i>
+                        <i class="fa-brands fa-instagram hover:text-pink-400"></i>
+                        <i class="fa-brands fa-tiktok hover:text-cyan-400"></i>
+                        <i class="fa-brands fa-telegram hover:text-sky-400"></i>
+                        <i class="fa-brands fa-discord hover:text-indigo-400"></i>
+                    </div>
+                </div>
+            `;
+        }
+
+        function simulasiKlikLayanan(namaLayanan) {
+            const feedback = document.getElementById('demoFeedback');
+            feedback.textContent = `Dipilih: "${namaLayanan}" — siap klik tombol reservasi!`;
+            feedback.classList.remove('hidden');
+        }
+
+        function simulasiBookingDemo() {
+            const feedback = document.getElementById('demoFeedback');
+            feedback.textContent = '✓ Simulasi berhasil! Otomatis mengarahkan pelanggan ke chat.';
+            feedback.classList.remove('hidden');
+        }
+
+        /**
+         * Memilih paket dari kartu harga dan mengarahkan fokus ke formulir pemesanan
+         */
+        function pilihPaket(namaPaket) {
+            const selectEl = document.getElementById('pilihanPaket');
+            selectEl.value = namaPaket;
+            document.getElementById('form-order').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setTimeout(() => document.getElementById('namaUsaha').focus(), 600);
+        }
+
+        /**
+         * Menyalin teks ke clipboard menggunakan metode yang kompatibel di dalam iframe
+         */
+        function salinTeksKeClipboard(teks) {
+            const tempTextarea = document.createElement('textarea');
+            tempTextarea.value = teks;
+            tempTextarea.style.position = 'fixed';
+            tempTextarea.style.opacity = '0';
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            try {
+                document.execCommand('copy');
+            } catch (err) {}
+            document.body.removeChild(tempTextarea);
+        }
+
+        let pesanTerakhir = '';
+
+        /**
+         * Memformat pesan pesanan dan membuka Telegram @BaBu45_x secara eksklusif
+         */
+        function kirimPesananTelegram(event) {
+            event.preventDefault();
+
+            const namaUsaha = document.getElementById('namaUsaha').value.trim();
+            const jenisBisnis = document.getElementById('jenisBisnis').value.trim();
+            const paket = document.getElementById('pilihanPaket').value;
+            const catatan = document.getElementById('catatanSingkat').value.trim() || '-';
+
+            const checkedPlatforms = Array.from(document.querySelectorAll('input[name="platform"]:checked'))
+                .map(cb => cb.value);
+            const platformStr = checkedPlatforms.length > 0 ? checkedPlatforms.join(', ') : 'WhatsApp';
+
+            pesanTerakhir = `Halo ANKER STUDIO (@BaBu45_x), saya mau order pembuatan Landing Page:\n\n` +
+                            `• Nama / Usaha: ${namaUsaha}\n` +
+                            `• Jenis Bisnis: ${jenisBisnis}\n` +
+                            `• Pilihan Paket: ${paket}\n` +
+                            `• Tujuan Reservasi: ${platformStr}\n` +
+                            `• Catatan: ${catatan}\n\n` +
+                            `Mohon info langkah selanjutnya untuk pengiriman bahan via Telegram ya!`;
+
+            salinTeksKeClipboard(pesanTerakhir);
+
+            const encodedMsg = encodeURIComponent(pesanTerakhir);
+            const telegramUrl = `https://t.me/BaBu45_x?text=${encodedMsg}`;
+
+            document.getElementById('previewPesanText').textContent = pesanTerakhir;
+            document.getElementById('fallbackTelegramLink').href = telegramUrl;
+            document.getElementById('fallbackBox').classList.remove('hidden');
+
+            window.open(telegramUrl, '_blank', 'noopener,noreferrer');
+        }
+
+        function salinUlangPesan() {
+            if (pesanTerakhir) {
+                salinTeksKeClipboard(pesanTerakhir);
+                const label = document.getElementById('copyStatusLabel');
+                label.innerHTML = '<i class="fa-solid fa-circle-check"></i> Berhasil Disalin Ulang!';
+            }
+        }
+
+        // Inisialisasi demo default saat halaman siap
+        window.addEventListener('DOMContentLoaded', () => {
+            gantiDemo('terapis');
+        });
+    </script>
+</body>
+</html>
