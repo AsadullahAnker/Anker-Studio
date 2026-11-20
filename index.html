@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANKER STUDIO (@ankerstudio_) — Jasa Landing Page Promosi & Reservasi</title>
-    <meta name="description" content="Jasa pembuatan landing page promosi & reservasi cepat mulai ≈ Rp 41rb/bulan (Rp 500rb/tahun). Terhubung ke WhatsApp, IG, TikTok, Telegram, dan Discord. Order via Telegram @BaBu45_x.">
+    <title>ANKER STUDIO (@ankerstudio_) — Jasa Landing Page Promosi & Undangan Online</title>
+    <meta name="description" content="Jasa pembuatan landing page promosi, reservasi & undangan online digital mulai Rp 60rb. Terhubung ke WhatsApp, IG, TikTok, Telegram, dan Discord. Order via Telegram @BaBu45_x.">
 
     <!-- Google Fonts: Plus Jakarta Sans & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@
         <div class="absolute bottom-0 left-1/3 w-[520px] h-80 bg-indigo-600/15 rounded-full blur-[140px]"></div>
     </div>
 
-    <!-- ==================== NAVBAR ==================== -->
+    <!-- ==================== NAVBAR STICKY ==================== -->
     <header class="sticky top-0 z-40 bg-obsidian-900/85 backdrop-blur-xl border-b border-white/10">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
             <!-- Brand Logo -->
@@ -89,7 +89,7 @@
             <div class="text-center max-w-3xl mx-auto">
                 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-cyan-400/30 text-cyan-300 text-xs font-semibold mb-6 backdrop-blur-md">
                     <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-                    <span>Jasa Landing Page Promosi & Reservasi • Mulai ≈ Rp 41rb/bln</span>
+                    <span>Undangan Online Mulai Rp 60rb • Landing Page Bisnis ≈ Rp 41rb/bln</span>
                 </div>
 
                 <h1 class="font-display text-3xl sm:text-5xl lg:text-[56px] font-extrabold text-white leading-[1.12] tracking-tight mb-6">
@@ -97,7 +97,7 @@
                 </h1>
 
                 <p class="text-sm sm:text-lg text-zinc-300 leading-relaxed mb-8 max-w-2xl mx-auto">
-                    Solusi website profil & katalog cepat untuk <strong class="text-white">UMKM, jasa terapis, toko, hingga kreator & komunitas</strong>. Langsung terhubung ke WhatsApp, Instagram, TikTok, Telegram, dan Discord tanpa ribet teknis.
+                    Solusi website profil, katalog cepat, hingga <strong class="text-white">undangan online digital</strong> untuk UMKM, jasa terapis, acara spesial, dan kreator. Langsung terhubung ke WhatsApp, Instagram, TikTok, Telegram, dan Discord.
                 </p>
 
                 <!-- Hero CTA Buttons -->
@@ -114,9 +114,9 @@
 
                 <!-- Trust Badges -->
                 <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2.5 text-xs sm:text-sm text-zinc-400">
-                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Setara ≈ Rp 41rb / Bulan</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Undangan Online Rp 60rb</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Web Bisnis ≈ Rp 41rb / Bulan</span>
                     <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Jadi dalam 1–2 Hari</span>
-                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Perpanjangan Tetap Sama</span>
                 </div>
             </div>
         </div>
@@ -134,16 +134,23 @@
                         Coba Klik & Rasakan Tampilan Website Klienmu
                     </h2>
                     <p class="text-sm sm:text-base text-zinc-300 leading-relaxed mb-6">
-                        Pilih kategori bisnis di bawah ini untuk melihat langsung bagaimana calon pelanggan melihat daftar layanan, harga, dan menekan tombol reservasi di layar ponsel mereka:
+                        Pilih kategori di bawah ini untuk melihat langsung bagaimana tamu atau calon pelanggan melihat detail acara, layanan, dan menekan tombol konfirmasi di layar ponsel mereka:
                     </p>
 
-                    <!-- Category Tabs -->
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-7">
+                    <!-- Category Tabs (4 Kategori) -->
+                    <div class="grid grid-cols-2 gap-3 mb-7">
                         <button type="button" onclick="gantiDemo('terapis')" id="btnDemoTerapis"
                                 class="demo-tab active p-3.5 rounded-2xl border border-cyan-400 bg-cyan-500/15 text-left transition-all">
                             <div class="text-cyan-400 text-base mb-1"><i class="fa-solid fa-spa"></i></div>
                             <div class="font-display font-bold text-white text-xs sm:text-sm">Jasa Terapis</div>
                             <div class="text-[11px] text-zinc-400">Booking jadwal & paket</div>
+                        </button>
+
+                        <button type="button" onclick="gantiDemo('undangan')" id="btnDemoUndangan"
+                                class="demo-tab p-3.5 rounded-2xl border border-white/10 bg-white/5 hover:border-white/25 text-left transition-all">
+                            <div class="text-rose-400 text-base mb-1"><i class="fa-solid fa-envelope-open-text"></i></div>
+                            <div class="font-display font-bold text-white text-xs sm:text-sm">Undangan Online</div>
+                            <div class="text-[11px] text-zinc-400">RSVP, lokasi & galeri</div>
                         </button>
 
                         <button type="button" onclick="gantiDemo('kuliner')" id="btnDemoKuliner"
@@ -163,7 +170,7 @@
 
                     <div class="p-4 rounded-2xl bg-white/5 border border-white/10 text-xs sm:text-sm text-zinc-300 flex items-start gap-3 text-left">
                         <i class="fa-solid fa-hand-pointer text-cyan-400 text-lg mt-0.5 shrink-0"></i>
-                        <span><strong class="text-white">Interaktif:</strong> Klik salah satu item layanan atau tombol reservasi di dalam layar HP sebelah kanan untuk mencoba simulasi!</span>
+                        <span><strong class="text-white">Interaktif:</strong> Klik salah satu item atau tombol aksi di dalam layar HP sebelah kanan untuk mencoba simulasi!</span>
                     </div>
                 </div>
 
@@ -202,29 +209,85 @@
         </div>
     </section>
 
-    <!-- ==================== PRICING SECTION (MONTHLY EQUIVALENT + FIXED ANNUAL RENEWAL) ==================== -->
+    <!-- ==================== PRICING SECTION ==================== -->
     <section id="paket" class="relative z-10 py-16 sm:py-24">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-14">
                 <span class="text-cyan-400 font-display font-bold text-xs uppercase tracking-widest">Pricelist Resmi 2026</span>
                 <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-white mt-2 mb-3">
-                    Pilih Paket Website Bisnismu
+                    Pilih Paket Website & Undangan
                 </h2>
                 <p class="text-sm sm:text-base text-zinc-400">
-                    Mulai dari <strong class="text-cyan-300">≈ Rp 41rb/bulan</strong> — biaya perpanjangan tahun ke-2 dan seterusnya tetap sama tanpa kenaikan mendadak.
+                    Tersedia paket hemat <strong class="text-rose-300">Undangan Online Rp 60rb</strong> sekali bayar, hingga paket landing page bisnis mulai <strong class="text-cyan-300">≈ Rp 41rb/bulan</strong> dengan biaya perpanjangan tetap.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 items-stretch">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 items-stretch">
 
-                <!-- ===== PAKET 01: STARTER (≈ Rp 41rb / bulan* | Rp 500rb dibayar per tahun) ===== -->
-                <div class="flex flex-col justify-between bg-obsidian-850/90 border border-white/10 rounded-3xl p-6 sm:p-8 hover:border-white/25 transition-all">
+                <!-- ===== PAKET 01: UNDANGAN ONLINE (Rp 60.000 Sekali Bayar) ===== -->
+                <div class="flex flex-col justify-between bg-obsidian-850/90 border border-rose-400/30 rounded-3xl p-6 hover:border-rose-400/60 transition-all">
                     <div>
                         <div class="flex items-center justify-between mb-4">
-                            <span class="text-xs font-bold uppercase tracking-wider text-zinc-300 bg-white/5 px-3 py-1 rounded-lg">01 • Starter</span>
+                            <span class="text-xs font-bold uppercase tracking-wider text-rose-300 bg-rose-500/15 px-3 py-1 rounded-lg border border-rose-400/20">01 • Event & Acara</span>
+                            <span class="text-xs font-semibold text-rose-300 bg-rose-500/10 px-2.5 py-1 rounded-lg">Sekali Bayar</span>
+                        </div>
+                        <h3 class="font-display text-xl sm:text-2xl font-bold text-white">Undangan Online</h3>
+                        <p class="text-xs sm:text-sm text-zinc-400 mt-1">Web undangan digital pernikahan, khitanan, ulang tahun, & syukuran.</p>
+
+                        <!-- Tampilan Harga Sekali Bayar -->
+                        <div class="my-6 pb-6 border-b border-white/10">
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="font-display text-3xl sm:text-4xl font-extrabold text-white">Rp 60.000</span>
+                            </div>
+                            <div class="text-xs sm:text-sm font-semibold text-rose-300 mt-1.5">
+                                Sekali bayar • Aktif hingga acara selesai
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3 text-xs sm:text-sm text-zinc-300 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-rose-400 mt-0.5 shrink-0"></i>
+                                <span>Desain elegan responsif & mobile-friendly</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-rose-400 mt-0.5 shrink-0"></i>
+                                <span>Satu link praktis siap sebar tanpa ribet</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-rose-400 mt-0.5 shrink-0"></i>
+                                <span>Hitung mundur acara, galeri foto, & musik latar</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-rose-400 mt-0.5 shrink-0"></i>
+                                <span>Tombol navigasi Google Maps & konfirmasi RSVP</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-rose-400 mt-0.5 shrink-0"></i>
+                                <span>Amplop digital / rekening hadiah & 1x revisi teks/foto</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="p-3.5 rounded-xl bg-rose-500/10 border border-rose-400/20 mb-5 flex items-start gap-2.5">
+                            <i class="fa-solid fa-heart text-rose-400 mt-0.5 shrink-0"></i>
+                            <p class="text-xs text-zinc-300 leading-relaxed">Tanpa biaya bulanan/tahunan. Bebas sebar link ke seluruh tamu via WhatsApp & IG.</p>
+                        </div>
+                        <button type="button" onclick="pilihPaket('Undangan Online — Rp 60.000 (Sekali Bayar)')" 
+                                class="w-full py-3.5 px-5 rounded-xl bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-400 hover:to-pink-500 text-white font-display font-bold text-sm shadow-lg shadow-rose-500/20 transition-all active:scale-95">
+                            Pesan Undangan Rp 60rb
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ===== PAKET 02: STARTER (≈ Rp 41rb / bulan* | Rp 500rb dibayar per tahun) ===== -->
+                <div class="flex flex-col justify-between bg-obsidian-850/90 border border-white/10 rounded-3xl p-6 hover:border-white/25 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-zinc-300 bg-white/5 px-3 py-1 rounded-lg">02 • Starter</span>
                             <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-lg">UMKM Pemula</span>
                         </div>
-                        <h3 class="font-display text-2xl font-bold text-white">Starter</h3>
+                        <h3 class="font-display text-xl sm:text-2xl font-bold text-white">Starter</h3>
                         <p class="text-xs sm:text-sm text-zinc-400 mt-1">Website simpel untuk mulai online & promosi cepat.</p>
 
                         <!-- Tampilan Harga Ekuivalen Bulanan + Keterangan Tahunan -->
@@ -238,28 +301,24 @@
                             </div>
                         </div>
 
-                        <ul class="space-y-3.5 text-sm text-zinc-300 mb-8">
-                            <li class="flex items-start gap-3">
+                        <ul class="space-y-3 text-xs sm:text-sm text-zinc-300 mb-8">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span>1 halaman landing page profil & promosi</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>Hosting cepat & subdomain gratis (<code class="text-xs bg-white/10 px-1.5 py-0.5 rounded text-cyan-200">.vercel.app</code>)</span>
+                                <span>Hosting cepat & subdomain gratis (<code class="text-[11px] bg-white/10 px-1 py-0.5 rounded text-cyan-200">.vercel.app</code>)</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span>Tombol direct chat/reservasi ke WhatsApp / Telegram</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>Desain mobile-first responsif kekinian</span>
+                                <span>Desain mobile-first responsif & 1x revisi desain</span>
                             </li>
-                            <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>1x revisi desain</span>
-                            </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span>Maintenance & perawatan teknis selama berlangganan</span>
                             </li>
@@ -267,7 +326,7 @@
                     </div>
 
                     <div>
-                        <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 mb-5 flex items-start gap-3">
+                        <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 mb-5 flex items-start gap-2.5">
                             <i class="fa-solid fa-server text-cyan-400 mt-0.5 shrink-0"></i>
                             <p class="text-xs text-zinc-300 leading-relaxed">Perpanjangan tahun ke-2 dst. tetap <strong class="text-white">Rp 500rb/tahun</strong> (termasuk hosting & maintenance).</p>
                         </div>
@@ -278,19 +337,19 @@
                     </div>
                 </div>
 
-                <!-- ===== PAKET 02: STANDARD (≈ Rp 62rb / bulan* | Rp 750rb dibayar per tahun - MOST CHOICE) ===== -->
-                <div class="relative flex flex-col justify-between bg-gradient-to-b from-obsidian-800 to-obsidian-850 border-2 border-cyan-400 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-cyan-500/15">
+                <!-- ===== PAKET 03: STANDARD (≈ Rp 62rb / bulan* | Rp 760rb dibayar per tahun - MOST CHOICE) ===== -->
+                <div class="relative flex flex-col justify-between bg-gradient-to-b from-obsidian-800 to-obsidian-850 border-2 border-cyan-400 rounded-3xl p-6 shadow-2xl shadow-cyan-500/15">
                     <!-- Badge Most Choice -->
-                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-500 text-obsidian-950 font-display text-xs font-extrabold uppercase tracking-wider px-4 py-1 rounded-full shadow-lg whitespace-nowrap">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-500 text-obsidian-950 font-display text-[11px] font-extrabold uppercase tracking-wider px-3.5 py-1 rounded-full shadow-lg whitespace-nowrap">
                         MOST CHOICE • PALING LARIS
                     </div>
 
                     <div>
                         <div class="flex items-center justify-between mb-4 mt-1">
-                            <span class="text-xs font-bold uppercase tracking-wider text-cyan-300 bg-cyan-400/10 px-3 py-1 rounded-lg border border-cyan-400/30">02 • Standard</span>
+                            <span class="text-xs font-bold uppercase tracking-wider text-cyan-300 bg-cyan-400/10 px-3 py-1 rounded-lg border border-cyan-400/30">03 • Standard</span>
                             <span class="text-xs font-semibold text-cyan-300">Rekomendasi</span>
                         </div>
-                        <h3 class="font-display text-2xl font-bold text-white">Standard</h3>
+                        <h3 class="font-display text-xl sm:text-2xl font-bold text-white">Standard</h3>
                         <p class="text-xs sm:text-sm text-zinc-300 mt-1">Lebih fleksibel dengan integrasi penuh semua sosmed.</p>
 
                         <!-- Tampilan Harga Ekuivalen Bulanan + Keterangan Tahunan -->
@@ -300,32 +359,28 @@
                                 <span class="text-xs sm:text-sm font-semibold text-cyan-400">/ bulan*</span>
                             </div>
                             <div class="text-xs sm:text-sm font-semibold text-zinc-200 mt-1.5">
-                                Rp 750rb dibayar per tahun
+                                Rp 760rb dibayar per tahun
                             </div>
                         </div>
 
-                        <ul class="space-y-3.5 text-sm text-zinc-200 mb-8">
-                            <li class="flex items-start gap-3">
+                        <ul class="space-y-3 text-xs sm:text-sm text-zinc-200 mb-8">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span class="font-semibold text-white">Semua fitur Starter</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>Integrasi lengkap medsos & chat (WhatsApp, Instagram, TikTok, Telegram, Discord)</span>
+                                <span>Integrasi lengkap medsos & chat (WA, IG, TikTok, Telegram, Discord)</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span>Formulir pemesanan & reservasi otomatis ke chat</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>Galeri foto produk/layanan & testimoni pelanggan</span>
+                                <span>Galeri foto produk/layanan & 2x revisi desain</span>
                             </li>
-                            <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>2x revisi desain</span>
-                            </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span><strong>Gratis update konten, harga & foto selama berlangganan</strong></span>
                             </li>
@@ -333,25 +388,25 @@
                     </div>
 
                     <div>
-                        <div class="p-3.5 rounded-xl bg-cyan-500/10 border border-cyan-400/25 mb-5 flex items-start gap-3">
+                        <div class="p-3.5 rounded-xl bg-cyan-500/10 border border-cyan-400/25 mb-5 flex items-start gap-2.5">
                             <i class="fa-solid fa-shield-halved text-cyan-400 mt-0.5 shrink-0"></i>
-                            <p class="text-xs text-zinc-200 leading-relaxed">Perpanjangan tahun ke-2 dst. tetap <strong class="text-white">Rp 750rb/tahun</strong> (termasuk hosting, integrasi penuh, & update konten).</p>
+                            <p class="text-xs text-zinc-200 leading-relaxed">Perpanjangan tahun ke-2 dst. tetap <strong class="text-white">Rp 760rb/tahun</strong> (termasuk hosting, integrasi penuh, & update konten).</p>
                         </div>
-                        <button type="button" onclick="pilihPaket('Standard — Rp 750rb / Tahun (≈ Rp 62rb/bln • Most Choice)')" 
+                        <button type="button" onclick="pilihPaket('Standard — Rp 760rb / Tahun (≈ Rp 62rb/bln • Most Choice)')" 
                                 class="w-full py-3.5 px-5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-display font-bold text-sm shadow-lg shadow-cyan-500/25 transition-all active:scale-95">
                             Pilih Paket Standard
                         </button>
                     </div>
                 </div>
 
-                <!-- ===== PAKET 03: PREMIUM (≈ Rp 83rb / bulan* | Rp 1jt dibayar per tahun) ===== -->
-                <div class="flex flex-col justify-between bg-obsidian-850/90 border border-white/10 rounded-3xl p-6 sm:p-8 hover:border-white/25 transition-all">
+                <!-- ===== PAKET 04: PREMIUM (≈ Rp 83rb / bulan* | Rp 1jt dibayar per tahun) ===== -->
+                <div class="flex flex-col justify-between bg-obsidian-850/90 border border-white/10 rounded-3xl p-6 hover:border-white/25 transition-all">
                     <div>
                         <div class="flex items-center justify-between mb-4">
-                            <span class="text-xs font-bold uppercase tracking-wider text-indigo-300 bg-indigo-500/10 px-3 py-1 rounded-lg border border-indigo-400/20">03 • Premium</span>
+                            <span class="text-xs font-bold uppercase tracking-wider text-indigo-300 bg-indigo-500/10 px-3 py-1 rounded-lg border border-indigo-400/20">04 • Premium</span>
                             <span class="text-xs font-semibold text-indigo-300">Custom Domain</span>
                         </div>
-                        <h3 class="font-display text-2xl font-bold text-white">Premium</h3>
+                        <h3 class="font-display text-xl sm:text-2xl font-bold text-white">Premium</h3>
                         <p class="text-xs sm:text-sm text-zinc-400 mt-1">Full digital branding dengan domain resmi milik sendiri.</p>
 
                         <!-- Tampilan Harga Ekuivalen Bulanan + Keterangan Tahunan -->
@@ -365,28 +420,24 @@
                             </div>
                         </div>
 
-                        <ul class="space-y-3.5 text-sm text-zinc-300 mb-8">
-                            <li class="flex items-start gap-3">
+                        <ul class="space-y-3 text-xs sm:text-sm text-zinc-300 mb-8">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span class="font-semibold text-white">Semua fitur Standard</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span><strong>Custom domain resmi sendiri (<code class="text-xs bg-white/10 px-1.5 py-0.5 rounded text-indigo-200">.com</code> atau <code class="text-xs bg-white/10 px-1.5 py-0.5 rounded text-indigo-200">.my.id</code>)</strong></span>
+                                <span><strong>Custom domain resmi (<code class="text-[11px] bg-white/10 px-1 py-0.5 rounded text-indigo-200">.com</code> / <code class="text-[11px] bg-white/10 px-1 py-0.5 rounded text-indigo-200">.my.id</code>)</strong></span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span>Custom section tanpa batas (FAQ, pricelist interaktif, galeri)</span>
                             </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>Animasi modern & tampilan eksklusif sesuai brand</span>
+                                <span>Animasi modern & bebas revisi sampai cocok</span>
                             </li>
-                            <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
-                                <span>Bebas revisi sampai cocok selama pengerjaan</span>
-                            </li>
-                            <li class="flex items-start gap-3">
+                            <li class="flex items-start gap-2.5">
                                 <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5 shrink-0"></i>
                                 <span>Prioritas support & maintenance penuh</span>
                             </li>
@@ -394,9 +445,9 @@
                     </div>
 
                     <div>
-                        <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 mb-5 flex items-start gap-3">
+                        <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 mb-5 flex items-start gap-2.5">
                             <i class="fa-solid fa-globe text-indigo-400 mt-0.5 shrink-0"></i>
-                            <p class="text-xs text-zinc-300 leading-relaxed">Perpanjangan tahun ke-2 dst. tetap <strong class="text-white">Rp 1jt/tahun</strong> (termasuk perpanjangan domain <code class="text-[11px] text-indigo-200">.com/.my.id</code>, hosting, & support).</p>
+                            <p class="text-xs text-zinc-300 leading-relaxed">Perpanjangan tahun ke-2 dst. tetap <strong class="text-white">Rp 1jt/tahun</strong> (termasuk perpanjangan domain <code class="text-[11px] text-indigo-200">.com/.my.id</code> & hosting).</p>
                         </div>
                         <button type="button" onclick="pilihPaket('Premium — Rp 1jt / Tahun (≈ Rp 83rb/bln • Custom Domain)')" 
                                 class="w-full py-3.5 px-5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-display font-bold text-sm border border-white/15 transition-all active:scale-95">
@@ -407,10 +458,10 @@
 
             </div>
 
-            <!-- Catatan Kaki Transparan (Ekuivalen Bulanan & Perpanjangan Tetap) -->
+            <!-- Catatan Kaki Transparan -->
             <div class="mt-8 text-center max-w-3xl mx-auto">
                 <p class="text-xs text-zinc-400 leading-relaxed">
-                    *Harga per bulan merupakan ekuivalen biaya selama 12 bulan untuk memudahkan perbandingan. Pembayaran dilakukan sekali bayar untuk masa aktif 1 tahun penuh, dan biaya perpanjangan tahun ke-2 dst. tetap sama sesuai paket yang dipilih.
+                    *Paket Undangan Online Rp 60.000 berlaku sekali bayar tanpa biaya perpanjangan. Untuk paket website bisnis (Starter, Standard, Premium), harga per bulan merupakan ekuivalen biaya selama 12 bulan; pembayaran dilakukan tahunan dan biaya perpanjangan tahun ke-2 dst. tetap sama sesuai paket.
                 </p>
             </div>
 
@@ -422,7 +473,7 @@
                         Butuh Tampilan Khusus atau Fitur Custom?
                     </h3>
                     <p class="text-xs sm:text-sm text-zinc-400 mt-1.5 max-w-xl">
-                        Katalog multi-kategori, halaman event, profil komunitas, atau integrasi link khusus lainnya. Diskusikan kebutuhanmu langsung bersama tim ANKER STUDIO.
+                        Katalog multi-kategori, undangan dengan domain khusus, profil komunitas, atau integrasi link lainnya. Diskusikan kebutuhanmu langsung bersama tim ANKER STUDIO.
                     </p>
                 </div>
                 <a href="https://t.me/BaBu45_x" target="_blank" rel="noopener noreferrer" 
@@ -440,7 +491,7 @@
             <div class="text-center max-w-2xl mx-auto mb-12">
                 <span class="text-cyan-400 font-display font-bold text-xs uppercase tracking-widest">Kenapa ANKER STUDIO?</span>
                 <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-white mt-2">
-                    Fokus Jualan, Urusan Teknis Kami yang Pegang
+                    Fokus Jualan & Acara, Urusan Teknis Kami yang Pegang
                 </h2>
             </div>
 
@@ -452,7 +503,7 @@
                     </div>
                     <h3 class="font-display font-bold text-white text-lg mb-2.5">Hosting Cepat Anti-Down</h3>
                     <p class="text-sm text-zinc-400 leading-relaxed">
-                        Website di-deploy pada infrastruktur cloud global berkecepatan tinggi sehingga terbuka instan saat diklik dari bio TikTok, IG, maupun WhatsApp.
+                        Website & undangan online di-deploy pada infrastruktur cloud global berkecepatan tinggi sehingga terbuka instan saat diklik dari bio TikTok, IG, maupun WhatsApp.
                     </p>
                 </div>
 
@@ -463,7 +514,7 @@
                     </div>
                     <h3 class="font-display font-bold text-white text-lg mb-2.5">Desain Mobile-First</h3>
                     <p class="text-sm text-zinc-400 leading-relaxed">
-                        Lebih dari 90% pengunjung media sosial mengakses lewat ponsel. Tata letak, ukuran tombol, dan keterbacaan dioptimalkan penuh untuk layar HP.
+                        Lebih dari 90% pengunjung media sosial dan tamu undangan membuka link lewat ponsel. Tata letak, ukuran tombol, dan keterbacaan dioptimalkan penuh untuk layar HP.
                     </p>
                 </div>
 
@@ -472,9 +523,9 @@
                     <div class="w-12 h-12 rounded-2xl bg-indigo-500/15 border border-indigo-400/30 text-indigo-400 flex items-center justify-center text-xl mb-5">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                     </div>
-                    <h3 class="font-display font-bold text-white text-lg mb-2.5">Free Maintenance Selama Berlangganan</h3>
+                    <h3 class="font-display font-bold text-white text-lg mb-2.5">Terima Beres & Revisi Mudah</h3>
                     <p class="text-sm text-zinc-400 leading-relaxed">
-                        Perlu ganti daftar harga, tambah foto baru, atau ubah nomor kontak? Cukup kirim bahan lewat Telegram <strong class="text-zinc-200">@BaBu45_x</strong>, langsung kami bereskan.
+                        Perlu ganti daftar harga, tambah foto baru, atau ubah detail jadwal acara? Cukup kirim bahan lewat Telegram <strong class="text-zinc-200">@BaBu45_x</strong>, langsung kami bereskan.
                     </p>
                 </div>
             </div>
@@ -495,7 +546,7 @@
                         Formulir Pemesanan Website
                     </h2>
                     <p class="text-xs sm:text-sm text-zinc-400 mt-2 max-w-xl mx-auto">
-                        Isi data usaha dan pilih paket di bawah ini. Pesan pesanan otomatis terformat dan langsung diarahkan ke Telegram <strong class="text-white">@BaBu45_x</strong>.
+                        Isi data usaha atau acara dan pilih paket di bawah ini. Pesan pesanan otomatis terformat dan langsung diarahkan ke Telegram <strong class="text-white">@BaBu45_x</strong>.
                     </p>
                 </div>
 
@@ -503,18 +554,18 @@
                     <!-- Nama / Nama Usaha -->
                     <div>
                         <label for="namaUsaha" class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2">
-                            Nama / Nama Usaha <span class="text-cyan-400">*</span>
+                            Nama / Nama Usaha / Mempelai <span class="text-cyan-400">*</span>
                         </label>
-                        <input type="text" id="namaUsaha" required placeholder="Contoh: Rizky Terapis / Kopi Senja / Toko Digital" 
+                        <input type="text" id="namaUsaha" required placeholder="Contoh: Rizky Terapis / Kopi Senja / Budi & Ayu" 
                                class="w-full px-4 py-3.5 rounded-xl bg-obsidian-950 border border-white/15 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
                     </div>
 
-                    <!-- Jenis Bisnis -->
+                    <!-- Jenis Bisnis / Acara -->
                     <div>
                         <label for="jenisBisnis" class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2">
-                            Jenis Bisnis / Bidang Usaha <span class="text-cyan-400">*</span>
+                            Jenis Bisnis / Acara <span class="text-cyan-400">*</span>
                         </label>
-                        <input type="text" id="jenisBisnis" required placeholder="Contoh: Jasa Terapis, Kuliner/Kafe, Bengkel, Klinik Kecantikan, Kreator" 
+                        <input type="text" id="jenisBisnis" required placeholder="Contoh: Undangan Pernikahan, Jasa Terapis, Kuliner/Kafe, Kreator" 
                                class="w-full px-4 py-3.5 rounded-xl bg-obsidian-950 border border-white/15 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
                     </div>
 
@@ -525,8 +576,9 @@
                         </label>
                         <select id="pilihanPaket" required 
                                 class="w-full px-4 py-3.5 rounded-xl bg-obsidian-950 border border-white/15 text-white text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
+                            <option value="Undangan Online — Rp 60.000 (Sekali Bayar)">Undangan Online — Rp 60.000 (Sekali Bayar)</option>
                             <option value="Starter — Rp 500rb / Tahun (≈ Rp 41rb/bln)">Starter — Rp 500rb / Tahun (≈ Rp 41rb/bln • Perpanjangan tetap)</option>
-                            <option value="Standard — Rp 750rb / Tahun (≈ Rp 62rb/bln • Most Choice)" selected>Standard — Rp 750rb / Tahun (≈ Rp 62rb/bln • Most Choice)</option>
+                            <option value="Standard — Rp 760rb / Tahun (≈ Rp 62rb/bln • Most Choice)" selected>Standard — Rp 760rb / Tahun (≈ Rp 62rb/bln • Most Choice)</option>
                             <option value="Premium — Rp 1jt / Tahun (≈ Rp 83rb/bln • Custom Domain)">Premium — Rp 1jt / Tahun (≈ Rp 83rb/bln • Custom Domain)</option>
                         </select>
                     </div>
@@ -534,7 +586,7 @@
                     <!-- Platform Tujuan Reservasi Klien -->
                     <div>
                         <span class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2.5">
-                            Integrasi Platform Tujuan Reservasi (Bisa pilih lebih dari satu)
+                            Integrasi Platform Tujuan Reservasi / RSVP (Bisa pilih lebih dari satu)
                         </span>
                         <div class="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
                             <label class="cursor-pointer">
@@ -579,7 +631,7 @@
                         <label for="catatanSingkat" class="block text-xs sm:text-sm font-semibold text-zinc-200 mb-2">
                             Catatan Tambahan (Opsional)
                         </label>
-                        <textarea id="catatanSingkat" rows="3" placeholder="Contoh: Request nuansa warna biru gelap, ada daftar paket harga & galeri foto..." 
+                        <textarea id="catatanSingkat" rows="3" placeholder="Contoh: Tema warna biru gelap / gold, tanggal acara 20 Desember 2026, ada galeri foto..." 
                                   class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-white/15 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors"></textarea>
                     </div>
 
@@ -625,7 +677,7 @@
                     ANKER STUDIO<span class="text-cyan-400">.</span>
                 </div>
                 <p class="text-xs text-zinc-400 mt-1">
-                    Jasa Landing Page Promosi & Reservasi (<span class="text-zinc-200">@ankerstudio_</span>)
+                    Jasa Landing Page Promosi, Reservasi & Undangan Online (<span class="text-zinc-200">@ankerstudio_</span>)
                 </p>
             </div>
 
@@ -658,12 +710,26 @@
                 deskripsi: 'Pijat kebugaran & relaksasi profesional langsung ke rumah. Jadwal fleksibel tanpa antre.',
                 warnaKartu: 'from-cyan-500/20 to-blue-600/20 border-cyan-400/30',
                 layanan: [
-                    { nama: 'Terapi Full Body (60 Menit)', harga: 'Rp150rb' },
+                    { nama: 'Terapi Full Body (60 Menit)', harga: 'Rp160rb' },
                     { nama: 'Terapi + Totok Wajah (90 Menit)', harga: 'Rp220rb' }
                 ],
                 tombolUtama: 'Booking Jadwal via WhatsApp',
                 ikonUtama: 'fa-brands fa-whatsapp',
                 warnaTombol: 'from-emerald-500 to-teal-600'
+            },
+            undangan: {
+                url: 'budi-ayu-wedding.vercel.app',
+                badge: 'Undangan Digital • Rp 60rb',
+                judul: 'The Wedding of Budi & Ayu',
+                deskripsi: 'Kepada Yth. Tamu Undangan — Minggu, 20 Des 2026 • Gedung Serbaguna Probolinggo.',
+                warnaKartu: 'from-rose-500/20 to-pink-600/20 border-rose-400/30',
+                layanan: [
+                    { nama: 'Akad Nikah (08.00 WIB)', harga: 'Maps' },
+                    { nama: 'Resepsi & Amplop Digital', harga: 'RSVP' }
+                ],
+                tombolUtama: 'Konfirmasi Kehadiran (RSVP)',
+                ikonUtama: 'fa-solid fa-envelope-open-text',
+                warnaTombol: 'from-rose-500 to-pink-600'
             },
             kuliner: {
                 url: 'kopisenja-jatim.vercel.app',
@@ -686,8 +752,8 @@
                 deskripsi: 'Semua portofolio, daftar paket jasa, dan akses komunitas dalam satu halaman cepat.',
                 warnaKartu: 'from-indigo-500/20 to-blue-600/20 border-indigo-400/30',
                 layanan: [
-                    { nama: 'Paket Landing Page Standard', harga: '≈ Rp62rb/bln' },
-                    { nama: 'Paket Custom Domain Premium', harga: '≈ Rp83rb/bln' }
+                    { nama: 'Paket Undangan Online Digital', harga: 'Rp 60rb' },
+                    { nama: 'Paket Landing Page Standard', harga: '≈ Rp62rb/bln' }
                 ],
                 tombolUtama: 'Order via Telegram',
                 ikonUtama: 'fa-brands fa-telegram',
@@ -756,13 +822,13 @@
 
         function simulasiKlikLayanan(namaLayanan) {
             const feedback = document.getElementById('demoFeedback');
-            feedback.textContent = `Dipilih: "${namaLayanan}" — siap klik tombol reservasi!`;
+            feedback.textContent = `Dipilih: "${namaLayanan}" — siap klik tombol konfirmasi!`;
             feedback.classList.remove('hidden');
         }
 
         function simulasiBookingDemo() {
             const feedback = document.getElementById('demoFeedback');
-            feedback.textContent = '✓ Simulasi berhasil! Otomatis mengarahkan pelanggan ke chat.';
+            feedback.textContent = '✓ Simulasi berhasil! Otomatis mengarahkan tamu/pelanggan ke chat.';
             feedback.classList.remove('hidden');
         }
 
@@ -809,11 +875,11 @@
                 .map(cb => cb.value);
             const platformStr = checkedPlatforms.length > 0 ? checkedPlatforms.join(', ') : 'WhatsApp';
 
-            pesanTerakhir = `Halo ANKER STUDIO (@BaBu45_x), saya mau order pembuatan Landing Page:\n\n` +
-                            `• Nama / Usaha: ${namaUsaha}\n` +
-                            `• Jenis Bisnis: ${jenisBisnis}\n` +
+            pesanTerakhir = `Halo ANKER STUDIO (@BaBu45_x), saya mau order pembuatan Website / Undangan Online:\n\n` +
+                            `• Nama / Usaha / Acara: ${namaUsaha}\n` +
+                            `• Jenis Bisnis / Acara: ${jenisBisnis}\n` +
                             `• Pilihan Paket: ${paket}\n` +
-                            `• Tujuan Reservasi: ${platformStr}\n` +
+                            `• Tujuan Reservasi / RSVP: ${platformStr}\n` +
                             `• Catatan: ${catatan}\n\n` +
                             `Mohon info langkah selanjutnya untuk pengiriman bahan via Telegram ya!`;
 
